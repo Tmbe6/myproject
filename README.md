@@ -9,6 +9,7 @@ secondLists 为需要选择的二级菜单数据
 popupTitle 为底部弹窗的标题、一级菜单默认提示、二级菜单默认提示
 
 ## 子组件接收
+
 popupTitle: {
   type: Object,
   default (){
@@ -19,6 +20,7 @@ popupTitle: {
     }
   }
 },
+
 // 第一级下拉选择菜单
 firstLists: {
   type: Array,
@@ -26,6 +28,7 @@ firstLists: {
     return []
   }
 },
+
 // 第二级下拉选择菜单
 secondLists: {
   type: Array,
