@@ -11,7 +11,7 @@ popupTitle 为底部弹窗的标题、一级菜单默认提示、二级菜单默
 ## 子组件接收
 
 //底部弹窗的标题、一级菜单默认提示、二级菜单默认提示                                                                                         
-popupTitle: {type: Object,default(){return {topTitle: '请选择',firstTitle: '请选择一级项目',secondTitle: '请选择二级项目'}}}                                                                                                                                         
+popupTitle: {type: Object,default(){return {topTitle: '请选择',firstTitle: '请选择一级项目',secondTitle: '请选择二级项目'}}}                                                                                                                                                                                                                                                                                                                                                        
 // 第一级下拉选择菜单                                                                                                                
 firstLists: {type: Array,default(){return []}}                                                                                        
                                                                                                       
