@@ -4,9 +4,9 @@ bottom-popup 是一个底部弹窗下拉二级菜单（二级可多选）
 ## 使用
 <popup-list v-if="showPopup" :firstLists="typeList" :secondLists="subjectList" :popupTitle="popupTitle" @selectInfo="selectInfo" @isShowPopup="isShowPopup"></popup-list>
 
-firstLists 为需要选择的一级菜单数据
+firstLists 为需要选择的一级菜单数据                                            
 secondLists 为需要选择的二级菜单数据
-popupTitle 为底部弹窗的标题、一级菜单默认提示、二级菜单默认提示
+popupTitle 为底部弹窗的标题、一级菜单默认提示、二级菜单默认提示                                                
 
 ## 子组件接收
 
